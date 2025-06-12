@@ -1,0 +1,1 @@
+This is a simple website that predicts the rank of a NEET student based on their score. Please note that this is based on historical data and should be taken with a grain of salt.

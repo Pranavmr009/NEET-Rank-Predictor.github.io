@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEET Exam Rank Predictor</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="main-most-container">
+        <p class="main-heading">NEET Rank Predictor 2025-2026</p>
+        <div class="main-container">
+            <div class="box-container">
+                <div class="heading-container">
+                    <p class="heading-txt">Ready to predict your rank?</p>
+                    <p class="motivation-txt">Your dedication to your goal is inspiring!</p>
+                </div>
+                <div class="score-input">
+                    <p class="neet-score-txt">NEET score out of 720</p>
+                    <input class="score-input-txt" type="text"  placeholder="Enter your score" required>
+                    <button class="predict-btn" onclick="displayResult();">Predict my rank</button>
+
+                </div>
+                <div class="allthebest">
+                    <p class="allthebest">Wishing you all the best for your NEET exam!!!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="Displayresult"></div>
+
+        <div class="disclaimer">
+            Disclaimer: 
+The Rank Predictor is a statistical model based on inputs provided by users and analysis of previous year trends. The accuracy of the results provided by the Rank Predictor is therefore subject to such inherent limitations.
+        </div>
+    </div>
+
+    <script src="scripts/ranks.js"></script>
+</body>
+
+</html>
