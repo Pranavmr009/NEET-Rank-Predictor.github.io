@@ -11,45 +11,47 @@ function displayResult() {
 
     console.log(score);
     if (score != null) {
-        if (score >= 672 && score <= maximum_score) {
-            result = '1-10';
+        if (score >= 651 && score <= 686) {
+            result = '1 - 73';
 
         }
 
-        else if (score >= 650 && score <= 671) {
-            result = '11-100';
+        else if (score >= 601 && score <= 650) {
+            result = '72 - 1,259';
 
         }
 
-        else if (score >= 630 && score <= 649) {
-            result = '101-500';
+        else if (score >= 551 && score <= 600) {
+            result = '1,260 - 10,658';
 
-        } else if (score >= 616 && score <= 629) {
-            result = '501-1000';
+        } else if (score >= 501 && score <= 550) {
+            result = '10,659 - 39,521';
 
-        } else if (score >= 571 && score <= 615) {
-            result = '1001-5000';
+        } else if (score >= 451 && score <= 500) {
+            result = '39,522 - 69,503';
 
-        } else if (score >= 542 && score <= 570) {
-            result = '5001-10000';
+        } else if (score >= 401 && score <= 450) {
+            result = '69,504 - 88,239';
 
-        } else if (score >= 528 && score <= 541) {
-            result = '10001-20000';
+        } else if (score >= 351 && score <= 400) {
+            result = '88,240 - 105,578';
 
-        } else if (score >= 515 && score <= 527) {
-            result = '20,001-30,000';
+        } else if (score >= 301 && score <= 350) {
+            result = '105,579 - 126,935';
 
-        } else if (score >= 496 && score <= 514) {
-            result = '30,001-50,000';
+        } else if (score >= 251 && score <= 300) {
+            result = '126,936 - 157,952';
 
-        } else if (score >= 465 && score <= 495) {
-            result = '50,001-1,00,000';
+        } else if (score >= 201 && score <= 250) {
+            result = '157,953 - 198,346';
 
-        } else if (score >= 424 && score <= 464) {
-            result = '1,00,001-2,00,000';
+        } else if (score >= 144 && score <= 200) {
+            result = '198,347 - 303,040';
 
-        } else if (score < 424) {
-            result = 'Above 2,00,000';
+        } 
+
+        else if (score < 144 && score >= 0) {
+            result = 'Below 303,041';
 
         }
 
