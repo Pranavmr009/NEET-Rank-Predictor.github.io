@@ -11,7 +11,9 @@ function displayResult() {
 
     console.log(score);
     if (score != null) {
-        if (score >= 651 && score <= 686) {
+
+        
+        if (score >= 651 && score <= 720) {
             result = '1 - 73';
 
         }
